@@ -18,7 +18,7 @@ Getting Started
 
 3. Sign up on https://www.weatherbit.io/ and get personal API key
 
-4. Put "API_KEY: *your_key*" in the `config` file
+4. Put "API_KEY: *Your_key*" in the `config` file
 
 5. Fill `client_database.json` file. It has the next structure:
 ```python
@@ -46,7 +46,7 @@ Getting Started
 }
 ```
 
-6. Launch manager.sh to run program
+6. Launch `manager.sh` to run program
 
 7. Optionally You may put manager.sh in cron or other task manager to send sms regularly and automatically!
 
