@@ -1,0 +1,19 @@
+{
+    "Cities": [
+        {
+            "ID": 0,
+            "name": "Moscow",
+            "country_code": "RU"
+        }
+    ],
+    "Clients": [
+        {
+            "ID": 0,
+            "name": "Alexey",
+            "phone": "+01234567890",
+            "Cities_ID": [
+                0
+            ]
+        }
+    ]
+}
