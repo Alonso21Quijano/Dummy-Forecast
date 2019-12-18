@@ -37,7 +37,8 @@ Getting Started
             "name": client name(optional),
             "phone": client phone,
             "Cities_ID": [
-                client cities' IDs
+                client cities ID,
+		....
             ]
         },
 	...
