@@ -1,7 +1,7 @@
 Dummy Forecast Messenger
 ========================
 
-This program is designed to send sms containing 3 day's weatherforecast to clients from database.
+This program is designed to send sms containing 3 day weather forecast to clients from database.
 
 REQUIREMENTS
 ------------
