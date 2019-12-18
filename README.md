@@ -21,29 +21,29 @@ Getting Started
 4. Put "API_KEY: *your_key*" in the `config` file
 
 5. Fill `client_database.json` file. It has the next structure:
-...```python..
-...{..
-...    "Cities": [..
-...        {..
-...            "ID": city ID,..
-...            "name": City name,..
-...            "country_code": weatherbit's country code(optional)..
-...        },.. 
-...	.....
-...    ],
-...    "Clients": [..
-...        {..
-...            "ID": client ID,..
-...            "name": client name(optional),..
-...            "phone": client phone,..
-...            "Cities_ID": [..
-...                client cities' IDs..
-...            ]..
-...        },..
-...	.....
-...    ]..
-...}..
-...```
+```python
+{
+    "Cities": [
+        {
+            "ID": city ID,
+            "name": City name,
+            "country_code": weatherbit's country code(optional)
+        },
+	...
+    ],
+    "Clients": [
+        {
+            "ID": client ID,
+            "name": client name(optional),
+            "phone": client phone,
+            "Cities_ID": [
+                client cities' IDs
+            ]
+        },
+	...
+    ]
+}
+```
 
 6. Launch manager.sh to run program
 
