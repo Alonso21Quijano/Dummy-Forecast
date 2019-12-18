@@ -3,7 +3,7 @@
 FORECAST_DIR='./forecasts/'
 if [ -n "$2" ]
 then
-	# If screen is off, turn it on and unlock it (Only works with slide to unlock)
+	# If screen is off, turn it on and unlock it
 	if adb shell dumpsys power | grep -q mWakefulness=Asleep; 
 	then
 		adb shell input keyevent 26
@@ -24,7 +24,7 @@ then
 	adb shell "NL=$'\n' ;am start -a android.intent.action.SENDTO -d sms:$1 --es sms_body \"$TEXT\" --ez exit_on_sent true"
 	sleep 1
 
-	# Press send button
+	# Press send
 	adb shell input keyevent 22
 	sleep 1
 	adb shell input keyevent 66
