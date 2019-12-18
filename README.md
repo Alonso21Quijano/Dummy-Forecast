@@ -48,5 +48,5 @@ Getting Started
 
 6. Launch manager.sh to run program
 
-7. Optionally You may put manager.sh in chron or other task manager to send sms regularly and automatically!
+7. Optionally You may put manager.sh in cron or other task manager to send sms regularly and automatically!
 
