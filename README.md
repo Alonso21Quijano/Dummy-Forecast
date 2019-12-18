@@ -35,7 +35,7 @@ Getting Started
         {
             "ID": client ID,
             "name": client name(optional),
-            "phone": client phone,
+            "phone": client phone number,
             "Cities_ID": [
                 client city ID,
 		....
