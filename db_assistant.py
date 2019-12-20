@@ -120,3 +120,5 @@ if __name__ == "__main__":
             elif command[0] == 'x':
                 print("EXIT")
                 break
+            else:
+                print("Sorry. Don't understand")
