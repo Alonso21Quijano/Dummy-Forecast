@@ -33,9 +33,9 @@ def add_client(name, phone, cities_id, *client_name):
     data = json.loads(path.read_text(encoding='utf-8'))
     ID = findmaxID(data, 'Clients')
     if len(client_name) == 0:
-        data['Clients'].append({'Cities_ID':cities_id, 'ID': ID, 'phone': phone})
+        data['Clients'].append({'Cities_ID':[int(item) for item in cities_id], 'ID': ID, 'phone': phone})
     else:
-        data['Clients'].append({'Cities_ID':cities_id, 'ID': ID, 'name': client_name[0], 'phone': phone})
+        data['Clients'].append({'Cities_ID':[int(item) for item in cities_id], 'ID': ID, 'name': client_name[0], 'phone': phone})
     path.write_text(json.dumps(data, sort_keys=True, indent=4, ensure_ascii = False, separators=(',', ': ')), encoding='utf-8')
 
 def remove_client(name, client_ID):
@@ -50,7 +50,7 @@ if __name__ == "__main__":
     print("Welcome to db_assistant")
     while True:
         print("What would you like to do now?")
-        print("'a_ci' --  add city \t 'r_ci'-remove city")
+        print("'a_ci' --  add city \t 'r_ci'-remove client")
         print("'a_cl' --  add client \t 'r_cl'-remove client")
         print("'s' -- show database\t 'x' -- exit")
         command = input().split()
@@ -120,5 +120,5 @@ if __name__ == "__main__":
             elif command[0] == 'x':
                 print("EXIT")
                 break
-            else:
-                print("Sorry. Don't understand")
+			else:
+				print("Sorry. Don't undersand")
