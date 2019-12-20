@@ -1,6 +1,6 @@
 #! /bin/bash
 
-cd ~/dummy_forecast
+cd ~/Dummy-Forecast
 
 python3 parser.py
 
