@@ -16,7 +16,7 @@ Getting Started
 
 2. [Enable USB debugging](https://developer.android.com/studio/command-line/adb#Enabling) on Your device
 
-2. Turn of any unlock screen options (including swipe)
+2. Turn off any unlock screen options (including swipe)
 
 3. Sign up on https://www.weatherbit.io/ and get personal API key
 
