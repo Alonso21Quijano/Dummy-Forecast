@@ -50,7 +50,7 @@ if __name__ == "__main__":
     print("Welcome to db_assistant")
     while True:
         print("What would you like to do now?")
-        print("'a_ci' --  add city \t 'r_ci'-remove client")
+        print("'a_ci' --  add city \t 'r_ci'-remove city")
         print("'a_cl' --  add client \t 'r_cl'-remove client")
         print("'s' -- show database\t 'x' -- exit")
         command = input().split()
