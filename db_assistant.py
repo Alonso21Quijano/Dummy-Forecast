@@ -121,4 +121,4 @@ if __name__ == "__main__":
                 print("EXIT")
                 break
 			else:
-				print("Sorry. Don't undersand")
+			    print("Sorry. Don't undersand")
